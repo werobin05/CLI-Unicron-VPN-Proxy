@@ -17,18 +17,53 @@ To run this project, you will need to add the following environment variables to
 `ENCRYPTION_KEY` - sizing 32 bites
 
 
+## Installation
+
+To launch the project, you need to install the following technology stack
+
+- Download [Rust](https://www.rust-lang.org/tools/install)
+- Download [Docker](https://www.docker.com/products/docker-desktop/)
+
+
+The libraries will install themselves when the project starts.
+```bash
+# Clone repository:
+git clone git@github.com:werobin05/CLI-Unicron-VPN-Proxy.git
+
+# Run project on your pc:
+cargo run
+
+#Building project:
+cargo build
+```
+    
+## Deployment
+
+To launch the project, you need to install the following technology stack
+
+- Download [Rust](https://www.rust-lang.org/tools/install)
+-
+
+
+```bash
+  npm run deploy
+```
+
+
 ## Badges
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://choosealicense.com/licenses/mit/)
 
-![Rust](https://img.shields.io/badge/-WITH%20A%20LOGO-gray?logo=rust&logoColor=black&labelColor=orange&style=for-the-badge)
+![Rust](https://img.shields.io/badge/-Rust-gray?logo=rust&logoColor=black&labelColor=orange&style=for-the-badge)
+
 
 
 
 
 ## Feedback
 
-If you have any feedback, please write to issues.
+If you have any feedback, please write to [issues](https://github.com/werobin05/CLI-Unicron-VPN-Proxy/issues/new).
 ## Authors
 
 - github [@werobin05](https://github.com/werobin05)
+
