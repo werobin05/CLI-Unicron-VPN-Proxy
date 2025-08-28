@@ -1,4 +1,3 @@
-
 ![Logo](./assets/icon.png)
 
 # CLI Unicron VPN/Proxy
@@ -23,6 +22,7 @@ To launch the project, you need to install the following technology stack
 - Download [Docker](https://www.docker.com/products/docker-desktop/)
 
 The libraries will install themselves when the project starts.
+
 ```bash
 # Clone repository:
 git clone git@github.com:werobin05/CLI-Unicron-VPN-Proxy.git
@@ -42,13 +42,12 @@ cargo build
 To launch the project, you need to install the following technology stack
 
 - Download [Rust](https://www.rust-lang.org/tools/install)
--
-
+- Download [Docker](https://www.docker.com/products/docker-desktop/)
 
 ```bash
-  npm run deploy
+  cargo build
+  
 ```
-
 
 ## Badges
 
@@ -56,10 +55,10 @@ To launch the project, you need to install the following technology stack
 
 ![Rust](https://img.shields.io/badge/-Rust-gray?logo=rust&logoColor=black&labelColor=orange&style=for-the-badge)
 
-
 ## Feedback
 
 If you have any feedback, please write to [issues](https://github.com/werobin05/CLI-Unicron-VPN-Proxy/issues/new).
+
 ## Authors
 
 - github [@werobin05](https://github.com/werobin05)
