@@ -1,4 +1,4 @@
-use crate::service::add_connection::add_connection;
+use crate::{service::add_connection::add_connection, ui::about::about};
 use crate::service::clear_terminal::clear_terminal;
 use crate::service::disconnect::disconnect;
 use crate::ui::home::home_page;
@@ -24,10 +24,7 @@ pub async fn run_cli() {
             "5" => println!("About CLI"),
             "6" => println!("Developer"),
             "d" => disconnect(),
-            "?" => println!(
-                "Connecting via the console works the same way as in the client, 
-                but here it's right in the console."
-            ),
+            "?" => about(),
             "c" => clear_terminal(),
             "q" | "quit" => break,
             _ => println!("Unknown option"),

@@ -1,6 +1,7 @@
-use crate::structs::dynamic_conn::get_connection_state;
+use crate::{service::clear_terminal::clear_terminal, structs::dynamic_conn::get_connection_state};
 
 pub fn home_page() {
+    clear_terminal();
     print!("----Welcome! Unicron CLI Network----\n");
 
     let mut status = String::from("[Not connected]");
@@ -10,15 +11,15 @@ pub fn home_page() {
     let menu = format!(
         r#"
         [------------Connection------------]
-        [1]: Added connection;
-        [2]: Your list connection;
-        [3]: Remove connection;
+        [1]: Added connection
+        [2]: Your list connection
+        [3]: Remove connection
         [------------About CLI-------------]
-        [4]: GitHub;
-        [5]: About CLI;
+        [4]: GitHub
+        [5]: About CLI
         [--------------Others--------------]
         [c]: clear terminal/console
-        [q]: quit;
+        [q]: quit
         [d]: disconnect
         [?] How does it work?
         [------------Connection------------]
